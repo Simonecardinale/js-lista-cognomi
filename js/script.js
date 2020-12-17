@@ -19,6 +19,14 @@ cognomi.push(cognomeUtenteFinale);
 cognomi.sort();
 document.getElementById('cognome_utente').innerHTML = cognomi;
 
+// posizione indice
+
+for( var i = 0; i < cognomi.length; i++) {
+    if(cognomi[i] == cognomeUtenteFinale) {
+        console.log(i);
+    }
+}
+
 
 
 
