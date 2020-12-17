@@ -23,7 +23,7 @@ document.getElementById('cognome_utente').innerHTML = cognomi;
 
 for( var i = 0; i < cognomi.length; i++) {
     if(cognomi[i] == cognomeUtenteFinale) {
-        console.log(i);
+        document.getElementById('position').innerHTML = i + 1;
     }
 }
 
